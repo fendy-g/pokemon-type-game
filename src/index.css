@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.correct-answer {
+    background-color: #4caf50;
+    border: #4caf50;
+}
+
+.correct-answer:hover {
+    background-color: #357a38;
+    border: #4caf50;
+}
+
+.wrong-answer {
+    background-color: #f44336;
+    border: #f44336;
+}
+
+.wrong-answer:hover {
+    background-color: #aa2e25;
+    border: #f44336;
+}
+
